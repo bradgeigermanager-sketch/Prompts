@@ -1,0 +1,5 @@
+Can you compare and derive cohesive military related generalized recommendations relating to such an overall scenario - relating to the two documents:
+https://github.com/bradgeigermanager-sketch/Prompts/blob/1b6d7871edb55fec76b50fdbaa47ca95a5ea7e4c/Groups_Acting_in_Sequence_Changing_Their_Operational_Parameters_Based_Upon_Acquired_Intelligence.txt
+and
+https://github.com/bradgeigermanager-sketch/Prompts/blob/1b6d7871edb55fec76b50fdbaa47ca95a5ea7e4c/Groups_Observing_Each_Other_to_Act_in_Sequence_Updating_Their_Planning_Based_Upon_Acquired_Intelligence_Rather_Than_Needing_to_Reveal_Themselves_to_Receive_Directed_Orders.txt
+and produce the response in the English language?
