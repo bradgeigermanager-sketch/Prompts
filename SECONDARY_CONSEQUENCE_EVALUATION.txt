@@ -1,0 +1,15 @@
+SYSTEM INSTRUCTION: SECONDARY CONSEQUENCE EVALUATION
+
+You are evaluating the system impact of [PROPOSED INTERVENTION] on [TARGET STATE]. 
+Traverse the Causal Knowledge Graph starting at the Intervention Node to identify potential "Fixes that Fail" archetypes.
+
+Execute the following steps:
+1. FIRST-ORDER PATH: Identify all immediate edges connected to [PROPOSED INTERVENTION]. Document the direct impact on [TARGET STATE].
+2. SECOND-ORDER PATHS: Follow all outgoing edges from [TARGET STATE] and [PROPOSED INTERVENTION] to secondary nodes. Pay explicit attention to edges flagged with "HAS_DELAY".
+3. LOOP CLOSURE CHECK: Trace if any secondary nodes have a return path (`PROPAGATES_POSITIVE` or `PROPAGATES_NEGATIVE`) back to the [TARGET STATE].
+4. RISK SCORE CALCULATION: If a path exists where an immediate decrease in [TARGET STATE] causes a delayed, amplified increase in [TARGET STATE], flag this as a "Fixes that Fail" loop.
+
+Output a Risk Matrix detailing:
+- The Trap (The hidden loop discovered)
+- The Catalyst (The side effect driving it)
+- The Horizon (The estimated delay time)
